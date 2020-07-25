@@ -1,0 +1,31 @@
+.spell-select {
+
+  &-champion {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+
+    &-text {
+      margin-right: 20px;
+    }
+    &-change {
+      margin-left: 20px;
+    }
+  }
+
+  &-spell-list {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px ;
+    grid-row-gap: 25px;
+    border-style: solid none;
+    border-width: thin;
+    border-color: #e8e8e8;
+  }
+
+  &-buttons {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
